@@ -29,3 +29,17 @@ def add_friend (person, name):
 
 def remove_friend (person, name):
     person["friends"].remove (name)
+
+# total_eggs = 0
+
+# for chicken in chickens:
+#     total_eggs += chicken["eggs"]
+#     chicken["eggs"] = 0
+
+# print(f"{total_eggs} eggs collected")
+# print(chickens)
+
+def total_money(person):
+    money = 0
+    for money in list:
+        money + person["monies"]
