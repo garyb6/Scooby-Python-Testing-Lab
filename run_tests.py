@@ -23,3 +23,9 @@ def likes_to_eat( person, snack ):
         if food == snack:
             return True 
     return False 
+
+def add_friend (person, name):
+    person["friends"].append (name)
+
+def remove_friend (person, name):
+    person["friends"].remove (name)
